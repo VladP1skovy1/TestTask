@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="utf-8">
+    <title>Testovací úloha - Piskovyi Vladyslav</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+    <div class="wrapper">
+    <header class="header">
+        <div id="menu" onclick="OpenFallingMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="logo">
+            <img class="logo__img" src="img/logo.svg" alt="">
+        </div>
+        <div class="search-button">
+           <picture><source srcset="img/icons-search.webp" type="image/webp"><img class="search-button__img" src="img/icons-search.png" alt=""></picture>
+        </div>
+    </header>
+</div>
+
+  
+        <nav id="falling-menu">  
+            <ul>
+                <img class="logo__img logo__img--size-sm" src="img/logo.svg" alt="">
+                <li><a href="#">Punkt 1</a></li>
+                <li><a href="#">Punkt 2</a></li>
+                <li><a href="#">Punkt 3</a></li>
+                <li><a href="#">Punkt 4</a></li>
+                <li><a href="#">Punkt 5</a></li>
+            </ul>
+            <picture><source srcset="img/iconClose.webp" type="image/webp"><img id="falling-menu__button-close" src="img/iconClose.png" alt="" onclick="CloseFallingMenu()"></picture>
+        </nav>
+  
+    <div class="wrapper">
+        <main class="main">
+
+            <div class="social-media">
+                <a href="#"><img class="social-media__img" src="img/facebook-f-brands.svg" alt="" onclick="OpenFallingMenu()"></a>
+                <a href="#"><img class="social-media__img" src="img/twitter-brands.svg" alt=""></a>
+                <a href="#"><img class="social-media__img" src="img/instagram-brands.svg" alt=""></a>
+                <a href="#"><img class="social-media__img" src="img/share-alt-solid.svg" alt=""></a>
+            </div>
+
+            <div class="main__block main__block--size-lg" style="background-image: url('img/article1.jpg');">
+                <div class="gradient"></div>
+                <div class="main__button">
+                    <a href="#">TRAVEL</a>
+                </div>
+                <div class="main__content">
+                    <h2 class="main__title">Etiam quis quam. Nemo eni <br> mipsam voluptatem quia</h2>
+                    <p class="main__subtitle">May 25, 2048 / 9 min.</p>
+                </div>
+            </div>
+
+
+            <div class="main__static-block">
+                <img class="main__static-img" src="img/space-station-moon-alt-duotone.svg" alt="">
+                <h2 class="main__static-title">Discover content <br> from different universe</h2>
+            </div>
+
+            <div class="main__external-block">
+                <div class="main__block" style="background-image: url('img/article2.jpg');">
+                    <div class="gradient"></div>
+                    <div class="main__button">
+                        <a href="#">TRAVEL</a>
+                    </div>
+                    <div class="main__content">
+                        <h2 class="main__title main__title--size-sm">Etiam quis quam. Nemo eni <br> mipsam voluptatem quia</h2>
+                        <p class="main__subtitle main__subtitle--size-sm">January 10, 2048 / 4 min.</p>
+                    </div>    
+                </div>
+    
+                <div class="main__block" style="background-image: url('img/article3.jpg');">
+                    <div class="gradient"></div>
+                    <div class="main__button main__button--purple">
+                        <a href="#">TECH</a>
+                    </div>
+                    <div class="main__content">
+                        <h2 class="main__title main__title--size-sm">Etiam quis quam. Nemo eni <br> mipsam voluptatem quia</h2>
+                        <p class="main__subtitle main__subtitle--size-sm">October 20, 2047 / 5 min.</p>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="main__block main__block--size-lg" style="background-image: url('img/article4.jpg');">
+                <div class="gradient"></div>
+                <div class="main__button">
+                    <a href="#">TRAVEL</a>
+                </div>
+                <div class="main__content">
+                    <h2 class="main__title">Etiam quis quam. Nemo eni <br> mipsam voluptatem quia</h2>
+                    <p class="main__subtitle">August 20, 2047 / 8 min.</p>
+                </div>
+
+            </div>
+
+        </main>
+    </div>
+    
+    <footer class="footer">
+        <div class="wrapper">
+            <div class="footer__inner">
+                <div>
+                    <p class="footer__title">All rights reserved. ©2048</p>
+                </div>
+                <div class="logo">
+                    <img class="logo__img logo__img--size-sm" src="img/logo.svg" alt="">
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/app.min.js" defer></script>
+</body>
+</html>
